@@ -1,0 +1,81 @@
+header {
+	padding: 20px 0px;
+}
+
+nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 80px;
+}
+
+li a {
+	color: #000;
+	font-family: Roboto;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.ellipse {
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+/*.fixed {
+	position: fixed;
+	top: 22px;
+	border: 1px dotted black;
+
+}*/
+
+.container {
+	width: 1408px;
+	margin: 0 auto;
+	border: 1px dotted black;
+}
+
+article {
+	margin-top: 76px;
+	color: #000;
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.sec-1 {
+	margin-top: 60px;
+}
+.mshobeli {
+	width: 362px;
+	height: 186px;
+	position: relative;
+}
+
+.shvili {
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	position: absolute;
+	top: 32px;
+	left: 41px;
+}
+
+
+
+
+
+
+
+
+
