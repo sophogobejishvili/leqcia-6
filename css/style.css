@@ -1,5 +1,14 @@
 header {
-	padding: 20px 0px;
+	width: 100%;
+	padding: 15px 0;
+	position: fixed;
+	top: 0;
+	background: #F1F1F1;
+	z-index: 2;
+}
+
+body {
+	background: #F1F1F1;;
 }
 
 nav {
@@ -27,17 +36,11 @@ li a {
 	margin-left: 5px;
 }
 
-/*.fixed {
-	position: fixed;
-	top: 22px;
-	border: 1px dotted black;
-
-}*/
 
 .container {
 	width: 1408px;
 	margin: 0 auto;
-	border: 1px dotted black;
+/*	border: 1px dotted black;*/
 }
 
 article {
@@ -51,12 +54,27 @@ article {
 }
 
 .sec-1 {
-	margin-top: 60px;
+	margin-top: 70px;
+}
+
+.tra {
+	color: #000;
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-top: 55px;
+	margin-bottom: 27px;
 }
 .mshobeli {
 	width: 362px;
-	height: 186px;
+	height: 357px;
 	position: relative;
+	z-index: -1;
+	display: inline-block;
+	vertical-align: top;
+	background: #FFF;
 }
 
 .shvili {
@@ -71,11 +89,150 @@ article {
 	left: 41px;
 }
 
+.mshobeli2 {
+	width: 362px;
+	height: 357px;
+	position: relative;
+	z-index: -1;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 156px;
+	background : #FFF;
+}
+
+.shvili2 {
+	border-radius: 0px 0px 5px 5px;
+ 	background: #FFF;
+}
+
+.text{
+	color: #8A8787;
+	font-family: Roboto;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	position: absolute;
+	top: 254px;
+	left: 37px ;
+}
+
+.clock {
+	position: absolute;
+	top: 288px;
+	left: 40px;
+}
+
+.text2 {
+	color: #8A8787;
+	font-family: Roboto;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	position: absolute;
+	top: 290px;
+	left: 67px;
+}
 
 
+.mshobeli3 {
+	position: relative;
+	width: 1165px;
+	height: 902px;
+}
 
 
+.teqsti {
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: normal;
+	font-family: Roboto;
+	line-height: normal;
+	position: absolute;
+	top: 203px;
+	left: 278px;
+}
+
+.village {
+	position: absolute;
+	top: 472px;
+}
+
+.forest {
+	position: absolute;
+	top: 0px;
+	left: 1045px;
+}
+
+.spilo {
+	position: absolute;
+	top: 310px;
+	left: 1045px;
+}
+
+.city {
+	position: absolute;
+	top: 625px;
+	left: 1045px;
+}
+
+.container2 {
+	margin-top: 36px;
+	width: 0 auto; 
+	height: 201px;
+	background: #243043;
+	position: relative;
+}
+
+h3 {
+	color: #818687;
+	font-family: Roboto;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-top: 14px;
+	
+}
+
+.pirveli {
+	position: absolute;
+	display: block;
+	top: 45px;
+	left: 137px;
+}
+
+.meore {
+	position: absolute ;
+	display: block;
+	top: 45px;
+	left: 266px;
+}
+
+.mesame {
+	position: absolute;
+	display: block;
+	top: 45px;
+	left: 417px;
+}
 
 
+.meotxe {
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 59px;
+    left: 599px;
+}
 
-
+.geolab {
+	position: absolute;
+	top: 59px;
+	right: 103px;
+}
